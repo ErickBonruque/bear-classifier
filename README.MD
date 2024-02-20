@@ -17,7 +17,7 @@ O principal propósito deste projeto é desenvolver um modelo capaz de classific
 
 ## Construção do dataset
 
-Como ponto de partida, utilizamos o conjunto de dados disponibilizado no Kaggle:
+Como ponto de partida, foi utilizado o conjunto de dados disponibilizado no Kaggle:
 
 ![Dataset Kaggle](/imagens/kaggle-dataset.png)
 
@@ -26,7 +26,7 @@ O conjunto de dados mencionado anteriormente incluía apenas 5 classes. Para enr
 # Resultados
 ## Primeira Versão
 
-Dos diversos resultados obtidos, os mais significativos foram alcançados ao utilizar transferência de aprendizado com o modelo VGG16 da biblioteca Keras. Foram utilizados outros mecanismos, sem a utilização de um modelo pré treinado foi alcançado uma precisão de 18% e utilizando transferência de aprendizado com o modelo resnet50 15% de precisão. Durante o treinamento com as 8 classes mencionadas, o modelo atingiu uma precisão de 100% nos dados de treinamento e 77% nos dados de validação. Ao analsar mais detalhadamente, observamos que o modelo enfrentou desafios significativos na identificação de Ursos Negros.
+Dos diversos resultados obtidos, os mais significativos foram alcançados ao utilizar transferência de aprendizado com o modelo VGG16 da biblioteca Keras. Além disso, foram utilizados outros mecanismos, sem a utilização de um modelo pré treinado foi alcançado uma precisão de 18% e utilizando transferência de aprendizado com o modelo resnet50 45% de precisão. Durante o treinamento com as 8 classes mencionadas, o modelo atingiu uma precisão de 100% nos dados de treinamento e 77% nos dados de validação. Ao analsar mais detalhadamente, observamos que o modelo enfrentou desafios significativos na identificação de Ursos Negros.
 
 ![Dataset Kaggle](/imagens/matriz-confusao.jpeg)
 
@@ -34,6 +34,6 @@ Posteriormente, realizei uma tentativa de treinamento excluindo a classe dos urs
 
 ## Segunda Versão
 
-Considerando esses aspectos, incorporamos 617 novas imagens ao conjunto de dados para enriquecimento, resultando em um aumento significativo na diversidade de dados. Com a inclusão desses novos dados de treinamento, conseguimos atingir uma precisão notável de 100% nos dados de treinamento e 86% nos dados de validação. No entanto, persiste o desafio na identificação de Ursos Negros e Ursos de Óculos, devido à sua semelhança com outras espécies. Este é um ponto a ser abordado para aprimorar ainda mais a eficácia do modelo.
+Considerando esses aspectos, incorporei 617 novas imagens ao conjunto de dados para enriquecimento, resultando em um aumento significativo na diversidade de dados. Com a inclusão desses novos dados de treinamento, consegui atingir uma precisão notável de 100% nos dados de treinamento e 86% nos dados de validação. No entanto, persiste o desafio na identificação de Ursos Negros e Ursos de Óculos, devido à sua semelhança com outras espécies. Este é um ponto a ser abordado para aprimorar ainda mais a eficácia do modelo.
 
 ![Dataset Kaggle](/imagens/matriz-confusao-2.jpeg)
