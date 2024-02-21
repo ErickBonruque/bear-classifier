@@ -34,12 +34,12 @@ Posteriormente, realizei uma tentativa de treinamento excluindo a classe dos urs
 
 ## Segunda Versão
 
-Considerando esses aspectos, incorporei 760 novas imagens ao conjunto de dados para enriquecimento, resultando em um aumento significativo na diversidade de dados. Com a inclusão desses novos dados de treinamento, consegui atingir uma precisão notável de 100% nos dados de treinamento e 86% nos dados de validação. No entanto, persiste o desafio na identificação de Ursos Negros e Ursos de Óculos, devido à sua semelhança com outras espécies. Este é um ponto a ser abordado para aprimorar ainda mais a eficácia do modelo.
+Considerando esses aspectos, incorporei 617 novas imagens ao conjunto de dados para enriquecimento, resultando em um aumento significativo na diversidade de dados. Com a inclusão desses novos dados de treinamento, consegui atingir uma precisão notável de 100% nos dados de treinamento e 86% nos dados de validação. No entanto, persiste o desafio na identificação de Ursos Negros e Ursos de Óculos, devido à sua semelhança com outras espécies. Este é um ponto a ser abordado para aprimorar ainda mais a eficácia do modelo.
 
 ![Dataset Kaggle](/imagens/matriz-confusao-2.jpeg)
 
 ## Terceira Versão
 
-Com o emprego do novo conjunto de dados, foram avaliados vários modelos de transferência de aprendizado, destacando-se o desempenho superior do modelo InceptionV3, que alcançou uma notável precisão de 94% durante o processo de validação.
+Incluí mais 143 imagens abrangendo ursos negros, pardos e polares. Ao utilizar o novo conjunto de dados, diversos modelos de transferência de aprendizado foram testados, e destaca-se o excepcional desempenho do modelo InceptionV3, atingindo uma impressionante precisão de 99% na fase de treinamento e 94% durante a fase de validação.
 
 ![Dataset Kaggle](/imagens/matriz-confusao-3.jpeg)
