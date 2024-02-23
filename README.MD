@@ -43,3 +43,11 @@ Considerando esses aspectos, incorporei 617 novas imagens ao conjunto de dados p
 Incluí mais 143 imagens abrangendo ursos negros, pardos e polares. Ao utilizar o novo conjunto de dados, diversos modelos de transferência de aprendizado foram testados, e destaca-se o excepcional desempenho do modelo InceptionV3, atingindo uma impressionante precisão de 99% na fase de treinamento e 94% durante a fase de validação.
 
 ![Dataset Kaggle](/imagens/matriz-confusao-3.jpeg)
+
+## Versão Pytorch
+
+Utilizando a biblioteca "fastbook", que simplifica significativamente a implementação do PyTorch, em conjunto com o modelo ResNet18, alcancei uma precisão impressionante de 98%.
+
+![Dataset Kaggle](/imagens/matriz-pytorch.jpeg)
+
+A biblioteca "fastbook" é uma parte integrante do ecossistema "fastai" e foi desenvolvida para tornar mais acessível a utilização do PyTorch, proporcionando uma abordagem mais simplificada e orientada para tarefas específicas, como aprendizado de máquina e visão computacional. 
