@@ -26,7 +26,7 @@ O conjunto de dados mencionado anteriormente incluía apenas 5 classes. Para enr
 # Resultados
 ## Primeira Versão
 
-Dos diversos resultados obtidos, os mais significativos foram alcançados ao utilizar transferência de aprendizado com o modelo `VGG16` da biblioteca Keras. Além disso, foram utilizados outros mecanismos, sem a utilização de um modelo pré treinado foi alcançado uma precisão de `18%` e utilizando transferência de aprendizado com o modelo `resnet50 45% de precisão`. Durante o treinamento com as 8 classes mencionadas, o modelo atingiu uma precisão de `100%` nos dados de treinamento e `77%` nos dados de validação. Ao analisar mais detalhadamente, observamos que o modelo enfrentou desafios significativos na identificação de Ursos Negros.
+Dos diversos resultados obtidos, os mais significativos foram alcançados ao utilizar transferência de aprendizado com o modelo `VGG16` da biblioteca Keras. Além disso, foram utilizados outros mecanismos, sem a utilização de um modelo pré treinado foi alcançado uma precisão de `18%` e utilizando transferência de aprendizado com o modelo `resnet50 45%` de precisão. Durante o treinamento com as 8 classes mencionadas, o modelo atingiu uma precisão de `100%` nos dados de treinamento e `77%` nos dados de validação. Ao analisar mais detalhadamente, observamos que o modelo enfrentou desafios significativos na identificação de Ursos Negros.
 
 ![Matriz Confusão](/imagens/matriz-confusao.jpeg)
 
